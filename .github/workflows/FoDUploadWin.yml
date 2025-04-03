@@ -36,7 +36,7 @@ jobs:
           # EXTRA_FOD_LOGIN_OPTS: --socket-timeout=60s
           FOD_RELEASE: 1293734
           EXTRA_PACKAGE_OPTS: -bt msbuild -bf eShopOnWeb.sln
-          DO_WAIT: true
+          DO_WAIT: false
           DO_EXPORT: true
           DO_PACKAGE_DEBUG: true
           # TOOL_DEFINITIONS: https://ftfy.mycompany.com/tool-definitions/v1/tool-definitions.yaml.zip
